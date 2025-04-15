@@ -131,4 +131,8 @@ meson install -C build
 # cat
 file ./out/demo.exe
 file ./out/libffaudio-1.dll
+
+# 判断library link是否对
+cd build
+meson introspect --targets -i
 ```
